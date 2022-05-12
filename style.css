@@ -1,0 +1,72 @@
+* {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.wrapper{
+    width: 360px; padding: 20px;
+    border: 1px solid black;
+    border-top-left-radius: 25% ;
+    border-bottom-right-radius: 25% ;
+}
+body {
+    font-size: 100px;
+    background: url('https://images.unsplash.com/photo-1633615668233-d621cc5f6597?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80');
+    background: url('https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav {
+    display: inline-block;
+    width: 100%;
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+    margin-left: 180px;
+    padding: 2px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 100px;
+    text-emphasis: none;
+    color: black;
+}
+
+.nav a:hover {
+    color: beige;
+}
+.container1 {
+    /* border: 2px solid red; */
+    display: inline-block;
+    height: 100%;
+    width: 600px;
+    margin: 70px 90px;
+}
+.container1 h2{
+    font-size: 80px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(85, 85, 204);
+    animation-name: akshat;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes akshat {
+    0%{
+        font-size: 80px;
+    }
+    25%{
+        font-size: 90px;
+    }
+    50%{
+        font-size: 70px;
+    }
+    100%{
+        font-size: 80px;
+    }
+}
+
